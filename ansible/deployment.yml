@@ -17,7 +17,6 @@
       service: name=httpd state=restarted
     - name: getting code to the server
       git:
-        repo: "https://github.com/NAGA-087/devops.git"
-        dest: /var/www/html/
+        repo: "https://github.com/NAGA-087/pawar.git"
+        dest: /var/www/htl/
         version: "frontend"
-
